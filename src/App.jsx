@@ -29,3 +29,5 @@ if (container) {
     </div>
   );
 }
+
+export default App
