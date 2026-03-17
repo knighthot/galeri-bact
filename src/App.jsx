@@ -14,8 +14,9 @@ export default function App() {
     <div style={{ width: '100%', height: '650px' }}>
       <DomeGallery 
         images={images} 
-        fit={0.8}
+        fit={0.4}
         minRadius={600}
+        imageBorderRadius="15px"
         maxVerticalRotationDeg={0}
         segments={34}
         dragDampening={2}
