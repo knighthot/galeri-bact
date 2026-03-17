@@ -19,8 +19,8 @@ export default function App() {
         maxVerticalRotationDeg={0}
         segments={34}
         dragDampening={2}
-
-  grayscale={false}
+        grayscale={false}
+        overlayBlurColor="#ffffff" /* Tema putih */
       />
     </div>
   );
