@@ -58,12 +58,12 @@ main.sphere-main {
 }
 
 .overlay {
-  background-image: radial-gradient(rgba(235, 235, 235, 0) 65%, var(--overlay-blur-color, #060010) 100%);
+  background-image: radial-gradient(rgba(255, 255, 255, 0) 65%, var(--overlay-blur-color, #ffffff) 100%);
 }
 
 .overlay--blur {
-  -webkit-mask-image: radial-gradient(rgba(235, 235, 235, 0) 70%, var(--overlay-blur-color, #060010) 90%);
-  mask-image: radial-gradient(rgba(235, 235, 235, 0) 70%, var(--overlay-blur-color, #060010) 90%);
+  -webkit-mask-image: radial-gradient(rgba(255, 255, 255, 0) 70%, var(--overlay-blur-color, #ffffff) 90%);
+  mask-image: radial-gradient(rgba(255, 255, 255, 0) 70%, var(--overlay-blur-color, #ffffff) 90%);
   backdrop-filter: blur(3px);
 }
 
@@ -143,7 +143,7 @@ main.sphere-main {
   position: absolute;
   inset: 0;
   z-index: 10;
-  background: rgba(0, 0, 0, 0.4);
+ background: rgba(255, 255, 255, 0.7);
   pointer-events: none;
   opacity: 0;
   transition: opacity 500ms ease;
@@ -185,7 +185,7 @@ main.sphere-main {
   height: 120px;
   z-index: 5;
   pointer-events: none;
-  background: linear-gradient(to bottom, transparent, var(--overlay-blur-color, #060010));
+  background: linear-gradient(to bottom, transparent, var(--overlay-blur-color, #ffffff));
 }
 
 .edge-fade--top {
