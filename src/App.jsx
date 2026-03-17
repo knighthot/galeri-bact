@@ -12,7 +12,7 @@ export default function App({ images }) {
         maxVerticalRotationDeg={0}
         segments={34}
         dragDampening={2}
-      
+
   grayscale={false}
       />
     </div>
